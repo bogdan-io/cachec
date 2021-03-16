@@ -1,0 +1,28 @@
+{
+    "name": "bog/cache",
+    "description": "it's a cache!",
+    "type": "library",
+    "require": {
+        "psr/simple-cache": "^1.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^0.3.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bog\\Cache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bog\\Cache\\Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bug, dan",
+            "email": "bogdan.o@adoreme.com"
+        }
+    ]
+}
